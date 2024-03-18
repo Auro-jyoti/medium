@@ -5,3 +5,5 @@ export const signupInput = z.object({
   password: z.string().min(6),
   name: z.string().optional(),
 });
+
+export type SignupInput = z.infer<typeof signupInput>
