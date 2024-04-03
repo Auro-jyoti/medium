@@ -21,5 +21,5 @@ const createBlogInput = zod_1.default.object({
 const updateBlogInput = zod_1.default.object({
     title: zod_1.default.string(),
     content: zod_1.default.string(),
-    id: zod_1.default.number()
+    id: zod_1.default.number(),
 });
